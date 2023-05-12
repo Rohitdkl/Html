@@ -1,0 +1,71 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background: url(./images/sun.jpg);
+  background-size: cover;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 250px;
+  align-items: center;
+  margin: auto;
+  margin-top: 120px;
+  background: rgba(0, 0, 0, 0.575);
+  color: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: inset -6px -6px rgba(255, 255, 255, 0.76) ;
+}
+
+.box h2{
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: left;
+  font-size: 36px;
+  
+  margin-bottom: 20px;
+  padding-bottom: 2px;
+
+}
+
+.login__form{
+  width: 100%;
+  overflow: auto;
+  font-size: 22px;
+  padding: 10px 0;
+  margin: 10px;
+  /* border-bottom: 2px solid rgb(42, 194, 240); */
+  transition: 0.25;
+}
+
+.login__form:focus-within{
+  border-bottom: 2px solid rgb(250, 179, 48);
+}
+
+.btn{
+  font-size: 13px;
+  padding: 7px;
+  border-radius: 5px;
+  background: #53ff4e;
+  cursor: pointer;
+}
+.rdk{
+  font-size: 13px;
+  padding: 7px;
+  border-radius: 5px;
+  background:  #53ff4e;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(250, 179, 48)
+}
+.rdk:hover{
+  background-color: rgb(250, 179, 48)
+}
+input{
+height: 20px;
+border-radius: 20px;
+width: 200px;
+
+}

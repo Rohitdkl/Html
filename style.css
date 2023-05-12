@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 127, 127);
+}
+.first_class{
+    text-align: center;
+    border: 1px solid greenyellow;
+    margin: 0px 450px 0px 450px;
+}
+label{
+    font-size: 20px;
+}
+#rdk{
+    color:crimson;
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 5px;  
+}
+.login_rdk{
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 5px;         
+}
+input{
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+}
